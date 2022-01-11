@@ -71,7 +71,7 @@ void Widget::on_pbMilk_clicked()
 
 }
 
-void Widget::on_pbReturn_clicked()
+void Widget::on_pbReset_clicked()
 {
     int cnt;
     int coins[4] = {500,100,50,10};
@@ -90,8 +90,11 @@ void Widget::on_pbReturn_clicked()
     }
 
 
-    messageBox.setText("Return Changes");
+    messageBox.setText("Reset");
     messageBox.setInformativeText(info);
     messageBox.exec();
+
+    setControl();
+
 }
 

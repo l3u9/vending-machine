@@ -21,7 +21,6 @@ public:
 
     void changeMoney(int coin);
     void setControl();
-
     QMessageBox messageBox;
 
 
@@ -37,7 +36,7 @@ private slots:
 
 
 
-    void on_pbReturn_clicked();
+    void on_pbReset_clicked();
 
 private:
     Ui::Widget *ui;

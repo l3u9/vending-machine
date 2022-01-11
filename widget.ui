@@ -123,7 +123,7 @@
     <string>Milk(100)</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pbReturn">
+  <widget class="QPushButton" name="pbReset">
    <property name="geometry">
     <rect>
      <x>310</x>
