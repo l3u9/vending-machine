@@ -90,11 +90,10 @@ void Widget::on_pbReset_clicked()
     }
 
 
+    changeMoney(0);
     messageBox.setText("Reset");
     messageBox.setInformativeText(info);
     messageBox.exec();
-
-    setControl();
 
 }
 
